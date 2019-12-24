@@ -1,0 +1,53 @@
+.dash-bg{
+   width: 70%;
+   margin: auto;
+   margin-left: 20%;
+   margin-top: 10px;
+}
+.line-top{
+   padding: 2px;
+   background: black;
+   border: none;
+}
+.line-down{
+   background: black;
+   padding: 2px;
+   border: none;
+}
+.dash-header{
+   font-size: 30px;
+   font-weight: 900;
+}
+.logout{
+   background: black;
+   color: white;
+   float: right;
+   padding: 5px 30px;
+   font-size: 20px;
+   border : none;
+}
+.logout:hover{
+   background: white;
+   color: black;
+   border: 2px solid black
+}
+.profile{
+   background: white;
+   color: black;
+   float: right;
+   padding: 3px 30px;
+   font-size: 20px;
+   border : 2px solid black;
+   margin-right: 10px;
+}
+.profile:hover{
+   background: black;
+   color: white;
+}
+.total{
+   float: right;
+   font-size: 15px;
+   border: 2px solid black;
+   margin-right: 10px;
+   padding: 5px 30px;
+}

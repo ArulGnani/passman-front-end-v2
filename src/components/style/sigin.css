@@ -1,0 +1,69 @@
+*{
+    scroll-behavior: smooth;
+}
+.signin-bg {
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+}
+.sign-in-form{
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 16px;
+}
+.sign-header {
+    margin-left: 10%;
+    font-size: 30px;
+    font-weight: 800;
+}
+.sign-line{
+    width: 85%;
+    padding:2px;
+    background: black;
+    margin-bottom: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+.fields{
+    font-size: 16px;
+    padding: 10px 70px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+.sign-btn {
+    border: none;
+    background: black;
+    color: white;
+    padding: 10px 30px;
+    font-size: 16px;
+}
+.sign-btn:hover{
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+.sign-login-line{
+    margin-top: 20px;
+    margin: auto;
+    width: 85%;
+    padding:2px;
+    background: black;
+}
+.sign-login{
+    padding: 10px;
+    margin-left: 5%;
+    font-size: 14px;
+}
+.sigin-login-btn{
+    padding: 5px 10px;
+    margin-left: 5px;
+    background: black;
+    color: white;
+    border: none;
+}
+.sigin-login-btn:hover{
+    background: white;
+    color: black;
+    border: 1.5px solid black;
+}

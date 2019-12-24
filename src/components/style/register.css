@@ -1,0 +1,35 @@
+.main{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 50vh;
+}
+
+.reg{
+    display: none;
+}
+.signin{
+    margin-left: 10px;
+    background: black;
+    color : white;
+    padding: 5px 20px;
+    border: none;
+    font-size: 20px;
+}
+.login{
+    margin-left: 10px;
+    background: black;
+    color : white;
+    padding: 5px 25px;
+    border: none;
+    font-size: 20px;
+}
+#line{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom:10px;
+    width: 30%;
+    background: black;
+    padding: 2px;
+    border: none;
+}
