@@ -5,6 +5,8 @@ import '../style/login.css'
 
 import DashBoard from '../dashorad/dashBoard'
 
+import SiginIn from './signin'
+
 class Login extends Component {
     constructor(props){
         super(props)
@@ -106,14 +108,14 @@ class Login extends Component {
                     <hr className="line-bottom"/>
                     <div>
                         <p className="sigin-login">new user 
-                            <button onClick={this.props.changeRenderPage} 
+                            <button onClick={this.props.changeRenderState} 
                             className="sigin-login-btn">
                             create new account </button>
                         </p>
                     </div>
                 </div>
             )
-        }else {
+        }else{
             return (
                 <div>
                     <DashBoard userInfo={this.state.userInfo}/>
